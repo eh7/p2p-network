@@ -1,0 +1,25 @@
+{
+  "name": "boot-node",
+  "version": "0.0.1",
+  "description": "p2p boot-node",
+  "main": "server.js",
+  "scripts": {
+    "service:boot-node": "node src/listener.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gav@eh7.co.uk",
+  "license": "ISC",
+  "dependencies": {
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "it-length-prefixed": "^3.1.0",
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.30.8",
+    "libp2p-bootstrap": "^0.12.2",
+    "libp2p-kad-dht": "^0.21.0",
+    "libp2p-mplex": "^0.10.2",
+    "libp2p-noise": "^2.0.4",
+    "libp2p-websockets": "^0.15.2",
+    "multiaddr": "^8.1.2",
+    "peer-id": "^0.14.3"
+  }
+}
